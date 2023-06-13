@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ulstr.c                                            :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: dlopez-i <dlopez-i@student.42barcel>       +#+  +:+       +#+        */
+/*   By: dani <dani@student.42.fr>                  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/13 11:48:20 by dlopez-i          #+#    #+#             */
-/*   Updated: 2023/06/13 14:36:07 by dlopez-i         ###   ########.fr       */
+/*   Updated: 2023/06/13 19:28:05 by dani             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,9 +26,9 @@ int main(int argc, char **argv)
 	{
 		while(argv[1][i])
 		{
-			if(argv[1][i] >= 65  && argv[1][i] <= 90)
+			if(argv[1][i] >= 'A' && argv[1][i] <= 'Z')
 				ft_putchar(argv[1][i] + 32);
-			else if (argv[1][i] >= 97  && argv[1][i] <= 122)
+			else if (argv[1][i] >= 'a'  && argv[1][i] <= 'z')
 				ft_putchar(argv[1][i] - 32);
 			else
 			ft_putchar(argv[1][i]);
